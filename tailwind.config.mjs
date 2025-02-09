@@ -12,6 +12,7 @@ export default {
         foreground: "var(--foreground)",
         greenBtn: "#56c45f",
         blueBtn: "#5996ef",
+        grayBtn: "#cccdd1",
         grayBackground: "#fafcfd",
         blueGradient1: "#00b9f9",
         blueGradient2: "#0068ec"
