@@ -30,3 +30,27 @@ body {
 .sans-bold{
   font-family: sans-bold;
 }
+/* Slider | Landing Top Slider*/
+.mySwiper{
+  width: 100%;
+}
+.slide-item{
+  width: 100% !important;
+}
+.swiper-button-prev::after , .swiper-button-next::after{
+  padding: 15px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .4);
+  color: #f26322;
+}
+.swiper-pagination-bullet{
+  background-color: #f26322 !important;
+  width: 18px !important;
+  height: 18px !important;
+  border: 1px solid #ffffff !important;
+}
+.swiper-pagination-horizontal{
+  margin-bottom: -10px;
+  padding: 15px 0px 10px 0px;
+  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%);
+}
