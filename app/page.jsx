@@ -1,7 +1,7 @@
 'use client'
+import BottomServices from "@/components/landingPageSections/BottomServices";
 import Services from "@/components/landingPageSections/Services";
 import LandingTopSlider from "@/components/sliders/LandingTopSlider";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,8 +9,9 @@ export default function Home() {
       <section>
         <LandingTopSlider/>
       </section>
-      <section style={{backgroundColor: "#fafcfd"}}>
+      <section>
         <Services/>
+        <BottomServices/>
       </section>
     </>
   );
