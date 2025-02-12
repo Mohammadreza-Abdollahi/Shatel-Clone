@@ -16,7 +16,8 @@ export default {
         orangeBtn: "#f26322",
         grayBackground: "#fafcfd",
         gray2Background: "#f6f7fa",
-        blueGradient1: "#00b9f9",
+        gray3Background: "#fafafa",
+        blueGradient1: "#00b9f9", 
         blueGradient2: "#0068ec"
       },
     },

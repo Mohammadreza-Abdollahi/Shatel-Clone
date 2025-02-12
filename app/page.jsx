@@ -1,17 +1,23 @@
-'use client'
+"use client";
+import BottomOptions from "@/components/landingPageSections/BottomOptions";
 import BottomServices from "@/components/landingPageSections/BottomServices";
 import Services from "@/components/landingPageSections/Services";
+import TopOptions from "@/components/landingPageSections/TopOptions";
 import LandingTopSlider from "@/components/sliders/LandingTopSlider";
 
 export default function Home() {
   return (
     <>
       <section>
-        <LandingTopSlider/>
+        <LandingTopSlider />
       </section>
       <section>
-        <Services/>
-        <BottomServices/>
+        <Services />
+        <BottomServices />
+      </section>
+      <section className="bg-gray3Background">
+        <TopOptions />
+        <BottomOptions />
       </section>
     </>
   );
