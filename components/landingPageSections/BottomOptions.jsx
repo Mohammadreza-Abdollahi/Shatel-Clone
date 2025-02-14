@@ -24,7 +24,7 @@ const BottomOptions = () => {
             </h2>
             <span className="relative text-xs text-slate-600 block mt-3 mb-9">
               بالاترین سرعت، با مناسب‌‌ترین هزینه برای کاربران خانگی{" "}
-              <div className="bottom-line"></div>
+              <div className="bottom-line -bottom-4 right-3"></div>
             </span>
             <p className="text-slate-600">
               سرویس{" "}
@@ -39,7 +39,7 @@ const BottomOptions = () => {
               شاتل ارائه خدمات اینترنت پرسرعت بر بستر FTTC را برای نخستین بار در
               کشور آغاز کرده است.
             </p>
-            <button className="mt-7 bg-blueBtn py-2 px-7 rounded-full text-white text-sm">
+            <button className="mt-7 bg-blueBtn hover:bg-blue-800 transition-all duration-300 py-2 px-7 rounded-full text-white text-sm">
               اطلاعات بیشتر
             </button>
           </section>

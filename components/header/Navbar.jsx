@@ -2,12 +2,14 @@ import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import MegaMenu from "./MegaMenu";
+import ProductsMenu from "./ProductsMenu";
 
 const Navbar = () => {
   return (
     <>
       <nav
-        className="pb-4 pt-3 text-xs bg-white mx-auto"
+        className="pb-4 pt-3 text-xs bg-white mx-auto relative"
         style={{ maxWidth: 1120 }}
       >
         <div className="container mx-3 flex justify-between items-center">
@@ -22,13 +24,15 @@ const Navbar = () => {
                   height={52}
                 />
               </li>
-              <li className="cursor-pointer align-middle text-slate-700 text-sm hover:text-green-500 transition-all duration-300">
-                محصولات و خدمات
+              <li className="cursor-pointer align-middle text-slate-700 text-sm hover:text-orangeBtn transition-all duration-300">
+                <MegaMenu title="محصولات و خدمات" width={900}>
+                  <ProductsMenu/>
+                </MegaMenu>
               </li>
-              <li className="cursor-pointer align-middle text-slate-700 text-sm hover:text-green-500 transition-all duration-300">
+              <li className="cursor-pointer align-middle text-slate-700 text-sm hover:text-orangeBtn transition-all duration-300">
                 پشتیبانی
               </li>
-              <li className="cursor-pointer align-middle text-slate-700 text-sm hover:text-green-500 transition-all duration-300">
+              <li className="cursor-pointer align-middle text-slate-700 text-sm hover:text-orangeBtn transition-all duration-300">
                 چرا شاتل؟
               </li>
             </ul>

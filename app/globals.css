@@ -33,9 +33,11 @@ body {
 /* Slider | Landing Top Slider*/
 .mySwiper{
   width: 100%;
+  z-index: 0 !important;
 }
 .slide-item{
   width: 100% !important;
+  z-index: 0 !important;
 }
 .swiper-button-prev::after , .swiper-button-next::after{
   padding: 15px;
@@ -72,13 +74,25 @@ body {
 }
 .bottom-line{
   position: absolute;
-  bottom: -18px;
-  right: 10px;
   width: 70px;
   height: 2px;
   background-color: #f9cf55;
 }
-.squar-line{
+.squar-linze{
   width: 529px !important;
   height: 379px !important;
 }
+/* MegaMenu */
+.mega-menu-content{
+  z-index: 9999  !important;
+  position: absolute;
+  top: 150%;
+  right: 0px;
+}
+.mega-show{
+  display: block;
+  transform: translate(0px);
+  opacity: 1;
+  transition: all .2s ease;
+}
+/* ProductsMegaMenu */

@@ -11,7 +11,7 @@ const TopOptions = () => {
             </h2>
             <span className="relative text-xs text-slate-600 block mt-3 mb-9">
               تجربه تا ۱,۰۰۰ مگابیت بر ثانیه سرعت{" "}
-              <div className="bottom-line"></div>
+              <div className="bottom-line -bottom-4 right-3"></div>
             </span>
             <p className="text-slate-600">
               سرویس <span className="text-slate-800 sans-bold">اینترنت فیبر نوری</span> یکی از جدیدترین فناوری‌های ارتباطات ثابت
@@ -23,7 +23,7 @@ const TopOptions = () => {
               است. شاتل همگام با تکنولوژی روز دنیا اقدام به راه‌اندازی و توسعه
               بستر ارائه این سرویس در شبکه خود داشته است.
             </p>
-            <button className="mt-7 bg-blueBtn py-2 px-7 rounded-full text-white text-sm">اطلاعات بیشتر</button>
+            <button className="mt-7 bg-blueBtn py-2 px-7 rounded-full text-white text-sm hover:bg-blue-800 transition-all duration-300">اطلاعات بیشتر</button>
           </section>
           <section className="w-1/2 p-2 overflow-hidden relative">
             <Image className="w-full rounded-md" src={"/img/light-fiber.png"} width={530} height={380} alt="LightFiber"/>

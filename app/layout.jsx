@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="/img/shatel-favicon.png" type="image/x-icon" />
       </head>
       <body>
-        <header className="sans overflow-hidden">
+        <header className="sans">
           <TopHeader userState={userState} setUserState={setUserState}/>
           <Navbar/>
         </header>
