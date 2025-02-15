@@ -4,7 +4,7 @@ const ProductsMenu = () => {
   return (
     <>
       <section className="flex justify-between items-start">
-        <div className="w-3/4 px-6 py-7 text-slate-800 flex justify-between items-start">
+        <div className="w-3/4 px-6 py-6 text-slate-800 flex justify-between items-start">
           <div className="w-2/5">
             <ul>
               <li className="relative mb-5 hover:text-orangeBtn transition-all duration-150">
@@ -65,14 +65,15 @@ const ProductsMenu = () => {
             </ul>
           </div>
         </div>
-        <div className="w-1/4">
+        <div className="w-1/4 relative">
           <Image
-            className="shadow-2xl w-full h-full"
+            className="w-full h-full object-cover"
             src={"/img/products-mega.jpg"}
             width={160}
             height={204}
             alt="ProductsMegaMenu"
           />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/10 via-black/10 to-white mix-blend-overlay"></div>
         </div>
       </section>
     </>

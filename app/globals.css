@@ -96,3 +96,8 @@ body {
   transition: all .2s ease;
 }
 /* ProductsMegaMenu */
+.product-mega{
+  width: 100%;
+  height: 100%;
+  background-image: url("../public/img/products-mega.jpg");
+}

@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import MegaMenu from "./MegaMenu";
 import ProductsMenu from "./ProductsMenu";
+import SupportMenu from "./SupportMenu";
 
 const Navbar = () => {
   return (
@@ -26,11 +27,13 @@ const Navbar = () => {
               </li>
               <li className="cursor-pointer align-middle text-slate-700 text-sm hover:text-orangeBtn transition-all duration-300">
                 <MegaMenu title="محصولات و خدمات" width={900}>
-                  <ProductsMenu/>
+                  <ProductsMenu />
                 </MegaMenu>
               </li>
               <li className="cursor-pointer align-middle text-slate-700 text-sm hover:text-orangeBtn transition-all duration-300">
-                پشتیبانی
+              <MegaMenu title="پشتیبانی" width={900}>
+                  <SupportMenu />
+                </MegaMenu>
               </li>
               <li className="cursor-pointer align-middle text-slate-700 text-sm hover:text-orangeBtn transition-all duration-300">
                 چرا شاتل؟
