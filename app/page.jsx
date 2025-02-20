@@ -15,7 +15,7 @@ export default function Home() {
         <Services />
         <BottomServices />
       </section>
-      <section className="bg-gray3Background">
+      <section className="shapes-bg py-14 bg-gray3Background">
         <TopOptions />
         <BottomOptions />
       </section>

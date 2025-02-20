@@ -3,7 +3,7 @@ import Image from "next/image";
 const BottomOptions = () => {
   return (
     <>
-      <section className="bottom-options sans flex items-center">
+      <section className="bottom-options sans flex items-center my-20">
         <div
           className="mx-auto flex justify-between items-center"
           style={{ width: 1120 }}

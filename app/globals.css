@@ -30,6 +30,18 @@ body {
 .sans-bold{
   font-family: sans-bold;
 }
+/* Navbar */
+.sticky-nav{
+  position: fixed;
+  top: -90px;
+  left: 21%;
+  transform: translateY(100%);
+  z-index: 9999;
+  transition: transform 0.3s;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-bottom: 2px solid #f26322;
+}
 /* Slider | Landing Top Slider*/
 .mySwiper{
   width: 100%;
@@ -60,17 +72,10 @@ body {
 .top-options{
   width: 100%;
   height: 480px;
-  background-image: url("../public//img/opt-bg-1.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .bottom-options{
   width: 100%;
   height: 480px;
-  background-image: url("../public/img/opt-bg-2.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right !important;
 }
 .bottom-line{
   position: absolute;
@@ -81,6 +86,10 @@ body {
 .squar-linze{
   width: 529px !important;
   height: 379px !important;
+}
+.shapes-bg{
+  background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 100%) , url("../public/img/shape-bg.jpg");
+  background-size: cover;
 }
 /* MegaMenu */
 .mega-menu-content{
@@ -93,6 +102,7 @@ body {
   display: block;
   transform: translate(0px);
   opacity: 1;
+  visibility: visible;
   transition: all .2s ease;
 }
 /* ProductsMegaMenu */
@@ -100,4 +110,12 @@ body {
   width: 100%;
   height: 100%;
   background-image: url("../public/img/products-mega.jpg");
+}
+/* Animations */
+@keyframes to-up {
+  from{
+    transform: translateY(-100px);
+  }to{
+    transform: translateY(0px);
+  }
 }
