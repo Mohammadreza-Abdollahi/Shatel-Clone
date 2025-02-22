@@ -14,6 +14,7 @@ export default {
         blueBtn: "#5996ef",
         grayBtn: "#cccdd1",
         orangeBtn: "#f26322",
+        yellowColor: "#facf54",
         grayBackground: "#fafcfd",
         gray2Background: "#f6f7fa",
         gray3Background: "#fafafa",

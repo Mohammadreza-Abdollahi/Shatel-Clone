@@ -16,7 +16,7 @@ const LandingTopSlider = () => {
         keyboard={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard , Autoplay]}
         loop
-        className="mySwiper"
+        className="landing-top-slider"
       >
         <SwiperSlide>
           <Image

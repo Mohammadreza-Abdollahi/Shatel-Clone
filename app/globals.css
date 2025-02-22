@@ -43,27 +43,27 @@ body {
   border-bottom: 2px solid #f26322;
 }
 /* Slider | Landing Top Slider*/
-.mySwiper{
+.landing-top-slider{
   width: 100%;
   z-index: 0 !important;
 }
-.slide-item{
+.landing-top-slider .slide-item{
   width: 100% !important;
   z-index: 0 !important;
 }
-.swiper-button-prev::after , .swiper-button-next::after{
+.landing-top-slider .swiper-button-prev::after ,.landing-top-slider .swiper-button-next::after{
   padding: 15px;
   border-radius: 4px;
   background-color: rgba(0, 0, 0, .4);
   color: #f26322;
 }
-.swiper-pagination-bullet{
+.landing-top-slider .swiper-pagination-bullet{
   background-color: #f26322 !important;
   width: 18px !important;
   height: 18px !important;
   border: 1px solid #ffffff !important;
 }
-.swiper-pagination-horizontal{
+.landing-top-slider .swiper-pagination-horizontal{
   margin-bottom: -10px;
   padding: 15px 0px 10px 0px;
   background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%);
@@ -110,6 +110,51 @@ body {
   width: 100%;
   height: 100%;
   background-image: url("../public/img/products-mega.jpg");
+}
+/* Suggestions */
+.sug-bg{
+  height: 640px;
+  background: linear-gradient(90deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100%) , url("../public/img/suggestion-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.suggestion-slider{
+  width: 1120px;
+  height: 80%;
+  z-index: 0 !important;
+  position: relative;
+  }
+.suggestion-slider .slide-item{
+  width: 100% !important;
+  z-index: 0 !important;
+}
+.suggestion-slider .swiper-slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.suggestion-slider .swiper-button-prev::after ,.suggestion-slider .swiper-button-next::after{
+  padding: 15px;
+  border-radius: 4px;
+  color: #f26322;
+  z-index: 10;
+  position: absolute;
+}
+.suggestion-slider .swiper-pagination-bullet{
+  background-color: #f26322 !important;
+  width: 18px !important;
+  height: 18px !important;
+  border: 1px solid #ffffff !important;
+}
+.suggestion-slider .swiper-pagination-horizontal{
+  margin-bottom: -10px;
+  padding: 15px 0px 10px 0px;
+}
+.suggest-img{
+  width: 90% !important;
+  height: 100%;
+  border-radius: 18px;
 }
 /* Animations */
 @keyframes to-up {

@@ -2,6 +2,7 @@
 import BottomOptions from "@/components/landingPageSections/BottomOptions";
 import BottomServices from "@/components/landingPageSections/BottomServices";
 import Services from "@/components/landingPageSections/Services";
+import Suggestions from "@/components/landingPageSections/suggestions";
 import TopOptions from "@/components/landingPageSections/TopOptions";
 import LandingTopSlider from "@/components/sliders/LandingTopSlider";
 
@@ -18,6 +19,9 @@ export default function Home() {
       <section className="shapes-bg py-14 bg-gray3Background">
         <TopOptions />
         <BottomOptions />
+      </section>
+      <section>
+        <Suggestions/>
       </section>
     </>
   );
