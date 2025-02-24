@@ -1,6 +1,7 @@
 "use client";
 import BottomOptions from "@/components/landingPageSections/BottomOptions";
 import BottomServices from "@/components/landingPageSections/BottomServices";
+import News from "@/components/landingPageSections/News";
 import Services from "@/components/landingPageSections/Services";
 import Suggestions from "@/components/landingPageSections/suggestions";
 import TopOptions from "@/components/landingPageSections/TopOptions";
@@ -22,6 +23,9 @@ export default function Home() {
       </section>
       <section>
         <Suggestions/>
+      </section>
+      <section className="shapes-bg py-20 pb-32 bg-gray3Background">
+        <News/>
       </section>
     </>
   );

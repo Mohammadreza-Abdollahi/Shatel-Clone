@@ -156,6 +156,10 @@ body {
   height: 100%;
   border-radius: 18px;
 }
+/* News Section */
+.news-sec{
+  width: 1120px;
+}
 /* Animations */
 @keyframes to-up {
   from{
