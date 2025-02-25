@@ -2,7 +2,7 @@ import NewsItem from "./NewsItem";
 
 const News = () => {
   return <>
-    <h2 className="text-2xl text-center mb-16 pt-8 text-slate-800 sans-bold">اخبار و تازه ها</h2>
+    <h2 className="text-2xl text-center mb-1 pt-8 text-slate-800 sans-bold">اخبار و تازه ها</h2>
     <section className="news-sec mx-auto flex justify-between">
         <NewsItem
          dayName={"یکشنبه"}

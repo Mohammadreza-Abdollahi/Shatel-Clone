@@ -3,6 +3,8 @@ import "./globals.css";
 import { useState } from "react";
 import TopHeader from "@/components/header/TopHeader";
 import Navbar from "@/components/header/Navbar";
+import TopFooter from "@/components/footer/TopFooter";
+import BottomFooter from "@/components/footer/BottomFooter";
 
 export default function RootLayout({ children }) {
   const [userState , setUserState] = useState("personal")
@@ -19,6 +21,11 @@ export default function RootLayout({ children }) {
           <Navbar/>
         </header>
         {children}
+        <footer className="py-5 bg-footerBgColor">
+          <TopFooter/>
+          <hr/>
+          <BottomFooter/>
+        </footer>
       </body>
     </html>
   );

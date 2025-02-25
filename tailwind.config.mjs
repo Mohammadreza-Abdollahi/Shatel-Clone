@@ -15,6 +15,17 @@ export default {
         grayBtn: "#cccdd1",
         orangeBtn: "#f26322",
         yellowColor: "#facf54",
+        footerBgColor: "#242c39",
+        // Logo Pallets | Instagram :
+        insta1: "#fecc71",
+        insta2: "#e94658",
+        insta3: "#9d36b5",
+        // LinkedIn : 
+        linkedin: "#0077b5",
+        // Tellegram
+        tellegram: "#0088cc",
+        // Twitter
+        twitter: "#1da1f2",
         grayBackground: "#fafcfd",
         gray2Background: "#f6f7fa",
         gray3Background: "#fafafa",
