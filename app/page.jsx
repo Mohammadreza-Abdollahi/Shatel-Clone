@@ -1,11 +1,12 @@
 "use client";
-import BottomOptions from "@/components/landingPageSections/BottomOptions";
-import BottomServices from "@/components/landingPageSections/BottomServices";
-import News from "@/components/landingPageSections/News";
-import Services from "@/components/landingPageSections/Services";
-import Suggestions from "@/components/landingPageSections/suggestions";
-import TopOptions from "@/components/landingPageSections/TopOptions";
-import LandingTopSlider from "@/components/sliders/LandingTopSlider";
+
+import BottomOptions from "@/components/personal/landingPageSections/BottomOptions";
+import BottomServices from "@/components/personal/landingPageSections/BottomServices";
+import News from "@/components/personal/landingPageSections/News";
+import Services from "@/components/personal/landingPageSections/Services";
+import Suggestions from "@/components/personal/landingPageSections/suggestions";
+import TopOptions from "@/components/personal/landingPageSections/TopOptions";
+import LandingTopSlider from "@/components/personal/sliders/LandingTopSlider";
 
 export default function Home() {
   return (
