@@ -6,44 +6,34 @@ const Services = () => {
       <section className="bg-grayBackground py-16">
         <section className="mx-auto text-center" style={{ width: 1120 }}>
           <ServicesItem
-            src={"/img/pcs.png"}
+            src={"/img/org-net.png"}
             alt={"SpeedyNet"}
-            title={"خدمات اینترنت پرسرعت ثابت"}
-            description={"بهترین راهکار برای دستیابی به اینترنت پرسرعت ثابت"}
+            title={"اینترنت سازمانی"}
           />
           <ServicesItem
-            src={"/img/telephone.png"}
+            src={"/img/org-tel.png"}
             alt={"Telephone"}
-            title={"خدمات تلفن"}
-            description={"نسل جدید خدمات تلفن با ویژگی های منحصر به فرد"}
+            title={"تلفن سازمانی (VoIP)"}
+          />
+          <ServicesItem
+            src={"/img/org-co.png"}
+            alt={"Sim"}
+            title={"کولوکیشن (میزبانی سرور)"}
+          />
+          <ServicesItem
+            src={"/img/org-vpn.png"}
+            alt={"Film"}
+            title={"شبکه خصوصی VPN | APN | VPLS | MPLS"}
           />
           <ServicesItem
             src={"/img/sim.png"}
-            alt={"Sim"}
-            title={"سیمکارت هوشمند شاتل موبایل"}
-            description={
-              "تنها اپراتور ارائه دهنده سیمکارت هوشمند با خدمات مکالمه ، پیامک واینترنت 4G/LTE"
-            }
-          />
-          <ServicesItem
-            src={"/img/film.png"}
-            alt={"Film"}
-            title={"تماشای انلاین فیلم و سریال(نماوا)"}
-            description={"خلق یک تجربه لذت بخش انلاین"}
-          />
-          <ServicesItem
-            src={"/img/organization.png"}
             alt={"NetServices"}
-            title={"خدمات مجتمع های مسکونی و تجاری"}
-            description={
-              "سرویس مجتمع های مسکونی و تجاری راهی مطمئن برای دسترسی به اینترنت و برقراری ارتباط"
-            }
+            title={"سیمکارت سازمانی"}
           />
           <ServicesItem
-            src={"/img/net4g.png"}
+            src={"/img/org-namava.png"}
             alt={"Services"}
-            title={"خدمات همگرایی ثابت و سیار"}
-            description={"تنها سرویس ترکیبی و همگرای موبایل و ADSL2+"}
+            title={"نماوا سازمانی"}
           />
         </section>
       </section>

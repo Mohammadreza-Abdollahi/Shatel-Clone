@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const BottomOptions = () => {
+const RightOptions = ({title = "عنوان" , subTitle = "عنوان کمکی" , par = "متن" , btn = "دکمه" , src = "/img/forbidden.png"}) => {
   return (
     <>
       <section className="bottom-options sans flex items-center my-20">
@@ -11,7 +11,7 @@ const BottomOptions = () => {
           <section className="w-1/2 p-2 overflow-hidden relative">
             <Image
               className="w-full rounded-md"
-              src={"/img/light-fiber.png"}
+              src={src}
               width={530}
               height={380}
               alt="LightFiber"
@@ -20,27 +20,17 @@ const BottomOptions = () => {
           </section>
           <section className="w-1/2 px-5">
             <h2 className="sans-bold text-2xl text-slate-800">
-              خدمات اینترنت پرسرعت ثابت VDSL
+              {title}
             </h2>
             <span className="relative text-xs text-slate-600 block mt-3 mb-9">
-              بالاترین سرعت، با مناسب‌‌ترین هزینه برای کاربران خانگی{" "}
+              {subTitle}
               <div className="bottom-line -bottom-4 right-3"></div>
             </span>
             <p className="text-slate-600">
-              سرویس{" "}
-              <span className="text-slate-800 sans-bold">
-                اینترنت فیبر نوری
-              </span>{" "}
-              در این روش می‌توانید اینترنت پرسرعت را با سرعت متوسط ۷۰ مگابیت بر
-              ثانیه، با قیمتی به مراتب ارزان‌تر از ADSL دریافت کنید. این سرویس
-              هم برای کاربران خانگی و هم برای کسب‌وکارها مورد استفاده قرار
-              می‌گیرد.
-              <br /><br />
-              شاتل ارائه خدمات اینترنت پرسرعت بر بستر FTTC را برای نخستین بار در
-              کشور آغاز کرده است.
+              {par}
             </p>
             <button className="mt-7 bg-blueBtn hover:bg-blue-800 transition-all duration-300 py-2 px-7 rounded-full text-white text-sm">
-              اطلاعات بیشتر
+              {btn}
             </button>
           </section>
         </div>
@@ -49,4 +39,4 @@ const BottomOptions = () => {
   );
 };
 
-export default BottomOptions;
+export default RightOptions;

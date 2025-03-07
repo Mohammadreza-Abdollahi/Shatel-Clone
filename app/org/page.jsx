@@ -1,9 +1,9 @@
 "use client";
-import BottomOptions from "@/components/organization/landingPageSections/BottomOptions";
+import BottomOptions from "@/components/organization/landingPageSections/RightOptions";
 import News from "@/components/organization/landingPageSections/News";
 import Services from "@/components/organization/landingPageSections/Services";
 import Suggestions from "@/components/organization/landingPageSections/suggestions";
-import TopOptions from "@/components/organization/landingPageSections/TopOptions";
+import TopOptions from "@/components/organization/landingPageSections/LeftOptions";
 import LandingTopSlider from "@/components/organization/sliders/LandingTopSlider";
 
 export default function Home() {
