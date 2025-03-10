@@ -4,9 +4,8 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import MegaMenu from "./MegaMenu";
-import ProductsMenu from "./ProductsMenu";
-import SupportMenu from "./SupportMenu";
 import { useEffect, useState } from "react";
+import ProductsMenu from "./ProductsMenu";
 
 const Navbar = () => {
   const [stickyClass, setStickyClass] = useState("");
@@ -46,7 +45,7 @@ const Navbar = () => {
                     />
                   </li>
                   <li className="cursor-pointer align-middle text-slate-700 text-sm hover:text-orangeBtn transition-all duration-300">
-                    <MegaMenu title="محصولات و خدمات" width={900}>
+                    <MegaMenu title="محصولات و خدمات" width={1220}>
                       <ProductsMenu />
                     </MegaMenu>
                   </li>

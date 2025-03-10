@@ -4,71 +4,84 @@ const ProductsMenu = () => {
   return (
     <>
       <section className="flex justify-between items-start">
-        <div className="w-3/4 px-6 py-6 text-slate-800 flex justify-between items-start">
-          <div className="w-2/5">
+        <div className="w-5/6 px-6 pt-6 text-slate-800 flex justify-between items-start">
+          <div className="w-2/12">
             <ul>
               <li className="relative mb-5 hover:text-orangeBtn transition-all duration-150">
-                <a href="#">خدمات اینترنت پر سرعت</a>
+                <a href="#">اینترنت سازمانی</a>
                 <div className="bottom-line -bottom-3"></div>
               </li>
               <li className="my-5 hover:text-orangeBtn transition-all duration-150">
-                <a href="#">اینترنت فیبر نوری</a>
+                <a href="#">پهنای باند اختصاصی</a>
               </li>
               <li className="my-5 hover:text-orangeBtn transition-all duration-150">
-                <a href="#">سرویس اسکای فایبر (Sky Fiber)</a>
-              </li>
-              <li className="my-5 hover:text-orangeBtn transition-all duration-150">
-                <a href="#">مجتمع های مسکونی و تجاری</a>
-              </li>
-              <li className="my-5 hover:text-orangeBtn transition-all duration-150">
-                <a href="#">+ADSL2</a>
-              </li>
-              <li className="mt-5 hover:text-orangeBtn transition-all duration-150">
-                <a href="#">VDSL</a>
+                <a href="#">پهنای باند حجمی</a>
               </li>
             </ul>
           </div>
-          <div className="w-1/5">
+          <div className="w-2/12">
             <ul>
               <li className="relative mb-5 hover:text-orangeBtn transition-all duration-150">
-                <a href="#">خدمات تلفن</a>
+                <a href="#">تلفن سازمانی (VoIP)</a>
                 <div className="bottom-line -bottom-3"></div>
               </li>
               <li className="my-5 hover:text-orangeBtn transition-all duration-150">
-                <a href="#">خدمات تلفن خانگی</a>
+                <a href="#">تلفن ثابت سازمانی</a>
+              </li>
+              <li className="my-5 hover:text-orangeBtn transition-all duration-150">
+                <a href="#">مرکز تماس ابری</a>
               </li>
             </ul>
           </div>
-          <div className="w-1/5">
+          <div className="w-2/12">
             <ul>
               <li className="relative mb-5 hover:text-orangeBtn transition-all duration-150">
-                <a href="#">خدمات همراه</a>
+                <a href="#">دیتاسنتر</a>
                 <div className="bottom-line -bottom-3"></div>
               </li>
               <li className="my-5 hover:text-orangeBtn transition-all duration-150">
+                <a href="#">کو لوکیشن (میزبانی سرور)</a>
+              </li>
+            </ul>
+          </div>
+          <div className="w-3/12">
+            <ul>
+              <li className="relative mb-5 hover:text-orangeBtn transition-all duration-150">
+                <a href="#">شبکه خصوصی</a>
+                <div className="bottom-line -bottom-3"></div>
+              </li>
+              <li className="my-5 hover:text-orangeBtn transition-all duration-150">
+                <a href="#">VPN | APN | VPLS | MPLS</a>
+              </li>
+            </ul>
+          </div>
+          <div className="w-2/12">
+            <ul>
+              <li className="relative mb-5 hover:text-orangeBtn transition-all duration-150">
                 <a href="#">شاتل موبایل</a>
-              </li>
-              <li className="my-5 hover:text-orangeBtn transition-all duration-150">
-                <a href="#">FMC</a>
-              </li>
-            </ul>
-          </div>
-          <div className="w-1/5">
-            <ul>
-              <li className="relative mb-5 hover:text-orangeBtn transition-all duration-150">
-                <a href="#">خدمات محتوا</a>
                 <div className="bottom-line -bottom-3"></div>
               </li>
               <li className="my-5 hover:text-orangeBtn transition-all duration-150">
-                <a href="#">نماوا</a>
+                <a href="#">سیمکارت سازمانی</a>
               </li>
             </ul>
           </div>
+          <div className="w-1/12">
+          <ul>
+            <li className="relative mb-5 hover:text-orangeBtn transition-all duration-150">
+              <a href="#">خدمات محتوا</a>
+              <div className="bottom-line -bottom-3"></div>
+            </li>
+            <li className="my-5 hover:text-orangeBtn transition-all duration-150">
+              <a href="#">نماوا سازمانی</a>
+            </li>
+          </ul>
         </div>
-        <div className="w-1/4 relative">
+        </div>
+        <div className="w-1/6 relative">
           <Image
             className="w-full h-full object-cover"
-            src={"/img/products-mega.jpg"}
+            src={"/img/org-products-mega.jpg"}
             width={160}
             height={204}
             alt="ProductsMegaMenu"

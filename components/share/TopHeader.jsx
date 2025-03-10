@@ -6,9 +6,7 @@ import { usePathname } from "next/navigation";
 
 const TopHeader = () => {
   const pathname = usePathname();
-  console.log(pathname);
-  const isPersonal = pathname === "/";
-  const isOrganizational = pathname === "/org";
+  const isOrganizational = pathname.includes("/org");
   return (
     <>
       <div className="h-12 text-xs bg-gradient-to-r from-cyan-500 to-blue-500">
@@ -20,7 +18,7 @@ const TopHeader = () => {
             <Link href="/">
               <span
                 className={`${
-                  isPersonal ? "bg-gradient-to-t sans-bold" : ""
+                  !isOrganizational ? "bg-gradient-to-t sans-bold" : ""
                 } text-white mx-0.5 py-4 px-2 cursor-pointer hover:bg-gradient-to-t from-blueGradient1 to-blueGradient2`}
               >
                 کاربران خانگی
@@ -52,7 +50,7 @@ const TopHeader = () => {
               </li>
               <li className="cursor-pointer py-4 px-3 hover:bg-gradient-to-t from-blueGradient1 to-blueGradient2">
                 <FontAwesomeIcon icon={faPhone} className="align-middle" />{" "}
-                شماره سراسری 91000999 (021)
+                شماره سراسری {isOrganizational ? "91000999" : "91000000"} (021)
               </li>
               <li className="cursor-pointer py-4 px-3 hover:bg-gradient-to-t from-blueGradient1 to-blueGradient2">
                 English

@@ -1,14 +1,14 @@
 "use client";
+import TopHeader from "@/components/share/TopHeader";
 import "../globals.css";
-import Navbar from "@/components/organization/header/Navbar";
-import TopFooter from "@/components/organization/footer/TopFooter";
-import BottomFooter from "@/components/organization/footer/BottomFooter";
-import TopHeader from "../../components/share/TopHeader";
+import Navbar from "@/components/personal/header/Navbar";
+import TopFooter from "@/components/personal/footer/TopFooter";
+import BottomFooter from "@/components/personal/footer/BottomFooter";
 export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
       <head>
-        <title>کاربران سازمانی | شاتل ؛ شاهراه اینترنت و تلفن</title>
+        <title>کاربران خانگی | شاتل ؛ شاهراه اینترنت و تلفن</title>
         <meta name="description" content="شرکت ارائه خدمات اینترنتی شاتل" />
         <link
           rel="shortcut icon"
