@@ -26,9 +26,11 @@ export default {
         tellegram: "#0088cc",
         // Twitter
         twitter: "#1da1f2",
+        // Backgrounds
         grayBackground: "#fafcfd",
         gray2Background: "#f6f7fa",
         gray3Background: "#fafafa",
+        gray4Background: "#eef0f5",
         blueGradient1: "#00b9f9", 
         blueGradient2: "#0068ec"
       },

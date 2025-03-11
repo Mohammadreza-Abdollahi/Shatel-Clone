@@ -1,9 +1,15 @@
 import Image from "next/image";
 
-const RightOptions = ({title = "عنوان" , subTitle = "عنوان کمکی" , par = "متن" , btn = "دکمه" , src = "/img/forbidden.png"}) => {
+const RightOptions = ({
+  title = "عنوان",
+  par = "متن",
+  btn = "دکمه",
+  btn2 = "ذکمه 2",
+  src = "/img/forbidden.png",
+}) => {
   return (
     <>
-      <section className="bottom-options sans flex items-center my-20">
+      <section className="bottom-options sans flex items-center my-10">
         <div
           className="mx-auto flex justify-between items-center"
           style={{ width: 1120 }}
@@ -19,18 +25,16 @@ const RightOptions = ({title = "عنوان" , subTitle = "عنوان کمکی" ,
             <div className="squar-line rounded-lg border-2 border-white absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 z-10"></div>
           </section>
           <section className="w-1/2 px-5">
-            <h2 className="sans-bold text-2xl text-slate-800">
+            <h2 className="sans-bold mb-3.5 relative text-xl text-slate-800">
               {title}
+              <div className={`bottom-line -bottom-2 right-3`}></div>
             </h2>
-            <span className="relative text-xs text-slate-600 block mt-3 mb-9">
-              {subTitle}
-              <div className="bottom-line -bottom-4 right-3"></div>
-            </span>
-            <p className="text-slate-600">
-              {par}
-            </p>
-            <button className="mt-7 bg-blueBtn hover:bg-blue-800 transition-all duration-300 py-2 px-7 rounded-full text-white text-sm">
+            <p className="text-slate-800 text-justify text-sm">{par}</p>
+            <button className="mt-7 mx-2 bg-blueBtn hover:bg-orangeBtn transition-all duration-300 py-2 px-7 rounded-full text-white text-sm">
               {btn}
+            </button>
+            <button className="mt-7 mx-2 text-blueBtn border border-1 border-blueBtn bg-white hover:border-orangeBtn hover:text-white hover:bg-orangeBtn transition-all duration-300 py-2 px-7 rounded-full text-sm">
+              {btn2}
             </button>
           </section>
         </div>

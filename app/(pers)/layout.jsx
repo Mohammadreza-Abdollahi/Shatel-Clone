@@ -1,6 +1,5 @@
 "use client";
 import TopHeader from "@/components/share/TopHeader";
-import "../globals.css";
 import Navbar from "@/components/personal/header/Navbar";
 import TopFooter from "@/components/personal/footer/TopFooter";
 import BottomFooter from "@/components/personal/footer/BottomFooter";
