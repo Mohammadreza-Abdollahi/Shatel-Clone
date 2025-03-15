@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <>
         <section
-          className={`w-full bg-white h-24 shadow-2xl ${setStickyClass}`}
+          className={`w-full bg-white h-24 shadow-2xl`}
         >
           <nav
             className={`pb-4 pt-3 text-xs bg-white w-full mx-auto relative ${stickyClass}`}

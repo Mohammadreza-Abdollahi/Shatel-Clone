@@ -7,7 +7,7 @@ const TopFooter = () => {
       <div className="w-full px-12 flex justify-start">
         <section className="w-1/2">
           <ul className="text-xs text-slate-200">
-            <li className="my-5"><span className="pb-1 hover:text-yellowColor hover:border-b border-1 border-yellowColor transition-all duration-150 cursor-pointer">ارتباط با ما</span></li>
+            <li className="my-5"><span className="pb-1 hover:text-yellowColor hover:border-b border-1 border-yellowColor transition-all duration-150 cursor-pointer">ارتباط با ما راهکارهای سازمانی</span></li>
             <li className="my-5"><span className="pb-1 hover:text-yellowColor hover:border-b border-1 border-yellowColor transition-all duration-150 cursor-pointer">فرصت های شغلی</span></li>
             <li className="my-5"><span className="pb-1 hover:text-yellowColor hover:border-b border-1 border-yellowColor transition-all duration-150 cursor-pointer">نمایندگان فروش</span></li>
             <li className="my-5"><span className="pb-1 hover:text-yellowColor hover:border-b border-1 border-yellowColor transition-all duration-150 cursor-pointer">سوالات متداول</span></li>

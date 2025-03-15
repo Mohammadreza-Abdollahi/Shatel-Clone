@@ -83,6 +83,10 @@ body {
   height: 2px;
   background-color: #f9cf55;
 }
+.bottom-line2{
+  position: absolute;
+  background-color: #f9cf55;
+}
 .squar-linze{
   width: 529px !important;
   height: 379px !important;
@@ -155,6 +159,46 @@ body {
   width: 90% !important;
   height: 100%;
   border-radius: 18px;
+}
+/* Suggestions */
+.sug-bg{
+  height: 640px;
+  background: linear-gradient(90deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100%) , url("../public/img/suggestion-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.comments-slider{
+  width: 1120px;
+  height: 80%;
+  z-index: 0 !important;
+  position: relative;
+  }
+.comments-slider .slide-item{
+  width: 100% !important;
+  z-index: 0 !important;
+}
+.comments-slider .swiper-slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comments-slider .swiper-button-prev::after ,.comments-slider .swiper-button-next::after{
+  padding: 15px;
+  border-radius: 4px;
+  color: #f26322;
+  z-index: 10;
+  position: absolute;
+}
+.comments-slider .swiper-pagination-bullet{
+  background-color: #f26322 !important;
+  width: 18px !important;
+  height: 18px !important;
+  border: 1px solid #ffffff !important;
+}
+.comments-slider .swiper-pagination-horizontal{
+  margin-bottom: -10px;
+  padding: 15px 0px 10px 0px;
 }
 /* News Section */
 .news-sec{
