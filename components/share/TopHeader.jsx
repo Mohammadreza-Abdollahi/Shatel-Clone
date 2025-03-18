@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 const TopHeader = () => {
   const pathname = usePathname();
-  const isOrganizational = pathname.includes("/org");
+  const isOrganizational = pathname.startsWith("/org");
   return (
     <>
       <div className="h-12 text-xs bg-gradient-to-r from-cyan-500 to-blue-500">
@@ -15,7 +15,7 @@ const TopHeader = () => {
           style={{ maxWidth: 1120 }}
         >
           <div className="flex items-center">
-            <Link href="/">
+            <Link href="/" replace>
               <span
                 className={`${
                   !isOrganizational ? "bg-gradient-to-t sans-bold" : ""
@@ -24,7 +24,7 @@ const TopHeader = () => {
                 کاربران خانگی
               </span>
             </Link>
-            <Link href="/org">
+            <Link href="/org" replace>
               <span
                 className={`${
                   isOrganizational ? "bg-gradient-to-t sans-bold" : ""
